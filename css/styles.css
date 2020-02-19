@@ -34,12 +34,26 @@ header h2 {
   min-height: 200px;
 }
 
-.navbar {
+.navbar-dark {
   background-color: #901cad;
+}
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 .tab-content {
   border: 1px solid #ddd;
   border-top: none;
   padding: 10px;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+  border: solid #5637dd;
 }
